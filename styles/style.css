@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+footer > div {
+    background-color: #add8e6;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.logo-yoogers {
+    padding-left: 15%;
+    padding-top: 5px;
+}
+
+header {
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    background-color: rgb(244, 244, 248);
+}
+
+.nav {
+    padding-right: 15%;
+    font-family: 'Roboto', sans-serif;
+}
