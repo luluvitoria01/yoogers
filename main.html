@@ -1,52 +1,102 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yoogers</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoogers</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
+
 <body>
-    <!-- Bootstrap -->
-    <div class="content">
+  <!-- Bootstrap -->
+  <div class="content">
 
-        <header>
-            <nav class="navbar bg-express justify-content-between">
-                <div class="brand logo-yoogers">
-                  <a href="#">
-                    <img src="assets/yoogers-logo.png"/>
-                  </a>
-                </div>
-          
-                <ul class="nav">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Registre-se</a>
-                  </li>
-          
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Login</a>
-                  </li>
-                </ul>
-              </nav>
-        </header>
+    <header>
+      <nav class="navbar justify-content-between fonte">
+        <div class="logo-yoogers">
+          <a href="#">
+            <img src="assets/yoogers-logo.png" />
+          </a>
+        </div>
 
-        <!-- <button class="btn btn-primary">
-            rodrigo            
-        </button> -->
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Registre-se</a>
+          </li>
 
-        <footer>
-            <div class="text-center p-4">
-                &copy; <b>Yoogers</b>, 2023-2023 - Desenvolvido com ❤️ por Luiza e Rodrigo.
-            </div>
-        </footer>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Login</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="row row-cols-12 p-4 m-0" style="background-color: #e3e2e2;">
+      <div class="col-4"></div>
+      <div class="col-4">
+        <div class="row pt-3">
+          <h1 class="fonte2">Amadureça seu lado</h1>
+          <h2 class="fonte2"><b class="negrito">espiritual</b> .</h2>
+          <p class="justify-content-start texto-intro fonte py-3">
+            A prática de <b>yoga</b> conecta seu lado sensível com seu lado espiritual, além de ser benéfico para saúde e garantir o bem estar. Nossos instrutores onlines são comprometidos em ser seus anjos de luz nessa jornada de descobrimento.
+          </p>
+          <div class="col-6">
+            <button class="btn btn-primary botao-intro fonte2 p-1"><b>Planos</b></button>
+          </div>
+          <div class="col-6">
+            <button class="btn btn-primary botao-intro fonte2 p-1"><b>Sobre</b></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row row-cols-12 m-0" style="background-color: #ededed; width: 100%;">
+      <div class="col-3"></div>
+      <div class="col-6 m-3 text-center">
+        <a href="#" class="m-5" style="text-decoration: none;">
+          <img src="assets/gympass-logo.png" />
+        </a>
+        <a href="#" class="m-5">
+          <img src="assets/totalpass-logo.png" />
+        </a>
+      </div>
+      <div class="col-3"></div>
+    </section>
+
+    <section class="row row-cols-12 my-5 g-0">
+      <div class="col-2" style="background-color: #b7b7b7;"></div>
+      <div class="col-4"><img src="assets/yoogers-woman-image.jpg" style="width: 520px;"></div>
+      <div class="col-4 texto-posicao">
+        <div class="row">
+          <h1 class="fonte2">Posição do cisne <br> tendo um <b class="negrito">AVC</b>.</h1>
+        </div>
+        <div class="row mb-3">
+          <p class="texto-intro fonte">Essa posição é conhecida por abrir os chakras frontais e médios para que você tenha mais percepção da realidade a sua volta. É uma posição de nível avançado para nossos yoogers mais experientes e flexíveis.</p>
+        </div>
+        <button class="btn btn-primary botao-posicao fonte2 m-0 p-1"><b>Vídeos</b></button>
+        <button class="btn btn-primary botao-posicao fonte2 p-1"><b>Ler mais</b></button>
+      </div>
+      <div class="col-2"></div>
+    </section>
 
 
-    </div>
+    <footer>
+      <div class="text-center p-4">
+        &copy; <b>Yoogers</b>, 2023-2023 - Desenvolvido com ❤️ por Luiza e Rodrigo.
+      </div>
+    </footer>
 
-    <!-- tag de script bootstrap -->
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <!-- tag de script bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
